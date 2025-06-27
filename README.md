@@ -1,75 +1,65 @@
-# Nuxt Minimal Starter
+# 🧪 GraphQL Playground UI
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A sleek, modern, and fully client-side **GraphQL playground** built with **Nuxt 3**, **Vue 3**, and **Tailwind CSS**.  
+Test any GraphQL endpoint by executing queries, editing variables & headers, exploring schemas, and saving/loading queries locally — no backend required!
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🚀 Features
+
+- 🔗 Connect to **any GraphQL endpoint** by entering its URL
+- ✅ Write and execute **GraphQL queries & mutations**
+- 🎯 Add custom **variables** and **HTTP headers**
+- 🧩 Explore GraphQL **schema types and fields** (mocked or introspected)
+- 💾 Save and load queries **using browser localStorage**
+- 🌙 Clean, responsive UI with **dark mode support**
+- 🎨 Built with **Nuxt 3**, **Vue 3**, and **Tailwind CSS**
+- ⚡ Zero backend — pure frontend, fetches directly from provided endpoints
+
+---
+
+## 🧑‍💻 Getting Started
 
 ```bash
-# npm
-npm install
+# Clone the repo
+git clone https://github.com/tselven/graphql-playground.git
 
-# pnpm
+# Navigate into frontend folder
+cd graphql-playground
+
+# Install dependencies
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# Start development server
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Open http://localhost:3000 in your browser to start testing GraphQL queries immediately.
 
-Build the application for production:
+## 🌐 Live Demo
+[Try the playground live here](https://graphql-playground.tselven.com)
 
-```bash
-# npm
-npm run build
+## 🎯 How to Use
+1. Enter any public or private GraphQL endpoint URL in the input box at the top.
 
-# pnpm
-pnpm build
+2. Write your GraphQL query or mutation in the editor.
 
-# yarn
-yarn build
+3. Add optional JSON variables and HTTP headers.
 
-# bun
-bun run build
-```
+4. Click Execute to send the request and see results live.
 
-Locally preview production build:
+5. Save queries locally for quick access later.
 
-```bash
-# npm
-npm run preview
+6. Explore the schema (mocked or introspected) to understand types and fields.
 
-# pnpm
-pnpm preview
+## 💡 Contribution
+This project is 100% open-source and community-driven. Feel free to:
 
-# yarn
-yarn preview
+- 🐛 Report bugs or issues
 
-# bun
-bun run preview
-```
+- ✨ Suggest or add new features
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- 📦 Submit pull requests to improve the UI/UX or codebase
+
+## 🧑‍🎓 Author
+Made with ❤️ by @tselven
