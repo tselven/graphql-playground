@@ -1,6 +1,46 @@
 <!-- pages/index.vue -->
 <template>
   <div class="h-screen flex flex-col bg-gray-100">
+  <!-- 🌈 GitHub Open Source Banner -->
+<div class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white px-6 py-4 shadow-md backdrop-blur-md bg-opacity-90 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+  <!-- Author Info -->
+  <div class="flex items-center gap-3 text-sm">
+    <Icon name="lucide:github" size="20" class="text-white animate-pulse" />
+    <span>
+      Open Source by
+      <a
+        href="https://github.com/tselven"
+        target="_blank"
+        class="underline hover:text-yellow-300 transition font-semibold"
+      >
+        @tselven
+      </a>
+    </span>
+  </div>
+
+  <!-- Star / Fork Buttons -->
+  <div class="flex items-center gap-3 text-sm">
+    <a
+      href="https://github.com/tselven/graphql-playground"
+      target="_blank"
+      class="flex items-center gap-1 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition shadow backdrop-blur-sm"
+    >
+      <Icon name="lucide:star" size="16" />
+      Star
+    </a>
+    <a
+      href="https://github.com/tselven/graphql-playground/fork"
+      target="_blank"
+      class="flex items-center gap-1 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition shadow backdrop-blur-sm"
+    >
+      <Icon name="lucide:git-fork" size="16" />
+      Fork
+    </a>
+  </div>
+</div>
+
+
+
     <!-- Header -->
     <div class="bg-gray-900 text-white p-4">
       <div class="flex items-center justify-between">
