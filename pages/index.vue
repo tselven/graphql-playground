@@ -171,17 +171,16 @@ watch(endpoint, async () => {
 
 
 // Reactive state
-const query = ref(`query GetUsers {
-  users {
-    id
+const query = ref(`query {
+  countries {
+    code
     name
-    email
-    posts {
-      id
-      title
+    continent {
+      name
     }
   }
-}`)
+}
+`)
 
 
 
